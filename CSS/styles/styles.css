@@ -1,6 +1,7 @@
 /* Mi primer comentario */
 :root {
-  --main_color: purper;
+  --main_color: 
+
 }
 
 h3 {
@@ -27,12 +28,107 @@ ul li h2 {
   font-size: 34px;
   font-family: 'Courier New', Courier, monospace;
   color: fuchsia;
+  /*lugar del textp*/
   text-align: center;
+
   text-decoration: underline;
   text-decoration-color:green;
   text-transform: uppercase;
+  /*espacio de letra*/
+
   letter-spacing: 20px;
+  /*espacio de palabra*/
+
   word-spacing: 20px;
   line-height: 100px;
+  /*trabajar con bordes*/
+
+  /*
+  border-color: lawngreen;
+  border-style: groove;
+  border-width: 30px;
+  */
+  /*atajo para trabajar con border*/
+  border: groove rgb(33, 33, 39) 30px;
+  border-radius: 100px;
+
+  /*margen: es la distancia de un elemento
+  con respecto a otro 
+  los valores funcionan en el sentido de
+  las agujas del reloj*/
+  margin: 100px 100px 0;
+  /* padding: es la diferencia del borde 
+    de la caja con respecto a su contenido*/
+  padding: 150px;
+
+  /*anchura y altura minima*/
+  min-height: 100px;
+  min-width: 100px;
+
+  /*anchura y altura maxima*/
+  max-width: 50px;
+  max-height: 50px;
+
+  /*existen diversas formas de colocar
+  colores en css, una de ellas es mencionar 
+  el color en idioma de ingles, pero tambien
+  puedes usar RGB, HSL */ 
+  /*
+  color: #507ca3;
+  color: rgb(9, 50, 25,);
+  color: hsl(9, 52%, 50%) */
+  opacity: 80%; 
+
+  /* 
+  REM hace referencia a un tamano por default 
+  que el navegador tiene, esta medida es relativa
+  pues el tamano por defaul puede cambiar segun
+  el ancho del navegador, decir 3rem es decir
+  3 veces es tamano por defaul
+  font-size: 3rem;
+  */
+
+  /* EM hace referencia al tamano por default del 
+  elemento html en si
+  font-size; 3em;
+  */
+
+  /* vh = viewport height ( altura del navegaor)
+     vw = vierport width ( anchura del navegador)
+  */
+  height: 100vh;
+  width: 100vw;
+  /*
+  display: none;
+  */
+
+  display: flex;
+  
+
+
+  
 
 }
+
+/*
+El !important hace que ese estilo tenga la maxima
+prioridad
+h2{
+  color: brown !important;
+}
+*/
+
+/*
+  pseudo clases
+  manejan los estados de un elemento 
+*/
+
+#prueba:hover{
+  background-color: black;
+  padding: 70px;
+}
+
+a:link{
+  color: aqua;
+}
+
