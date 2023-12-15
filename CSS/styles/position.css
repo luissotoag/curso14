@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px 20px;
+    z-index: 5;
+}
+
+/*nav p{
+    position: absolute;
+    top: 50px;
+    width: 100px;
+    height: 50px;
+    border: 3px solid green;
+
+}*/
+
+
+section{
+    height: 100vh;
+    width: 100%;
+}
+
+.seccion1{
+    background-color: rgb(13, 226, 120);
+}
+
+.seccion2{
+    background-color: rgb(74, 23, 168);
+}
+
+.seccion3{
+    background-color: rgb(19, 208, 241);
+}
+
+.seccion4{
+    background-color: rgb(218, 8, 8);
+}
+

@@ -103,11 +103,12 @@ ul li h2 {
   */
 
   display: flex;
-  
-
-
-  
-
+  flex-direction: column;
+  /*justify-content eje principal*/
+  justify-content: center;
+  /*aling items eje secundario */
+  align-items: center;
+  transition: padding 2s;
 }
 
 /*
@@ -130,5 +131,17 @@ h2{
 
 a:link{
   color: aqua;
+}
+
+
+.input:focus{
+
+  outline: 0;
+
+}
+
+.hijos{
+
+  background-color: aqua;
 }
 
