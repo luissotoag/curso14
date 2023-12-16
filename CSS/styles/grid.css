@@ -1,0 +1,29 @@
+.grilla{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.columns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dispareja{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    justify-content: center;
+    align-items: center;
+}
+
+.rojo{
+    background-color: brown;
+}
+
+.azul{
+    background-color: blue;
+}
